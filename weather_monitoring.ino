@@ -8,12 +8,12 @@
 #include <WiFiClientSecure.h>
 
 // Konfigurasi WiFi
-const char* ssid = "Not Found";  // SSID WiFi
-const char* password = "gejok1221";  // Password WiFi
+const char* ssid = "wifi ssid";  // SSID WiFi
+const char* password = "ssid password";  // Password WiFi
 
 // Konfigurasi Telegram
-const char* botToken = "7781671344:AAFOr4pL0G_DhSGFmqUTpcJvlXwQSMu7oK4";  // Token bot
-const char* chatID = "1330911879";  // Chat ID pengguna
+const char* botToken = "bot token";  // Token bot
+const char* chatID = "telegram chat id";  // Chat ID pengguna
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(botToken, client);
